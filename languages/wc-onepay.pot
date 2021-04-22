@@ -1,0 +1,582 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OnePay for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-30 15:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-4.9.12"
+
+#: includes/class-wc-onepay-environment.php:158
+#: includes/class-wc-onepay-environment.php:171
+#: includes/class-wc-onepay.php:69 includes/class-wc-onepay.php:80
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: templates/boleto-form.php:8
+msgid "The order will be confirmed only after the payment approval."
+msgstr ""
+
+#: templates/boleto-form.php:9
+msgid ""
+"After clicking \"Place order\" you will have access to banking Boleto which "
+"you can print and pay in your internet banking or in a lottery retailer."
+msgstr ""
+
+#: templates/card-form.php:5
+msgid "Card Number"
+msgstr ""
+
+#: templates/card-form.php:9
+msgid "Name Printed on the Card"
+msgstr ""
+
+#: templates/card-form.php:14
+msgid "Expiry (MM/YYYY)"
+msgstr "Validade (MM/AAAA)"
+
+#: templates/card-form.php:15
+msgid "MM / YYYY"
+msgstr "MM / AAAA"
+
+#: templates/card-form.php:18
+msgid "Security Code"
+msgstr ""
+
+#: templates/card-form.php:19
+msgid "CVC"
+msgstr ""
+
+#: templates/card-form.php:23
+msgid "Installments"
+msgstr ""
+
+#: includes/abstracts/abstract-class-wc-onepay.php:84
+#, php-format
+msgid "Order refund process: %s"
+msgstr ""
+
+#: includes/abstracts/abstract-class-wc-onepay.php:85
+#, php-format
+msgid "Order refund process $amount: %s"
+msgstr ""
+
+#: includes/abstracts/abstract-class-wc-onepay.php:97
+#, php-format
+msgid ""
+"Refund request sent to the OnePay: value %s. See the OnePay administrative "
+"panel for more details."
+msgstr ""
+
+#: includes/abstracts/abstract-class-wc-onepay.php:120
+#, php-format
+msgid "OnePay Gateway received a URL notification: %s"
+msgstr ""
+
+#: includes/abstracts/abstract-class-wc-onepay.php:172
+msgid "Your payment was not processed."
+msgstr ""
+
+#: includes/abstracts/abstract-class-wc-onepay.php:178
+msgid "Your payment has been received successfully."
+msgstr ""
+
+#: includes/abstracts/abstract-class-wc-onepay.php:182
+msgid "Awaiting payment confirmation."
+msgstr ""
+
+#: includes/functions/wc-onepay-admin.php:63
+msgid "Settings"
+msgstr ""
+
+#: includes/functions/wc-onepay-admin.php:64
+msgid "Support"
+msgstr ""
+
+#: includes/views/html-notice-credential-missing.php:10
+#: includes/views/html-notice-credential-missing.php:17
+msgid "OnePay - Credit Card"
+msgstr ""
+
+#: includes/views/html-notice-credential-missing.php:10
+msgid ""
+"To receive payments by Credit Card you must enter your token secret in the "
+"settings."
+msgstr ""
+
+#: includes/views/html-notice-credential-missing.php:17
+msgid ""
+"To receive payments by Credit Card you must enter your token secret (sandbox)"
+" in the settings."
+msgstr ""
+
+#: includes/views/html-notice-credential-missing.php:24
+#: includes/views/html-notice-credential-missing.php:31
+msgid "OnePay - Boleto"
+msgstr ""
+
+#: includes/views/html-notice-credential-missing.php:24
+msgid ""
+"To receive payments by Boleto you must enter your token secret in the "
+"settings."
+msgstr ""
+
+#: includes/views/html-notice-credential-missing.php:31
+msgid ""
+"To receive payments by Boleto you must enter your token secret (sandbox) in "
+"the settings."
+msgstr ""
+
+#: includes/views/html-notice-currency-not-supported.php:9
+msgid "OnePay Disabled"
+msgstr ""
+
+#: includes/views/html-notice-currency-not-supported.php:9
+msgid "Currency not supported. Works only with Brazilian Real."
+msgstr ""
+
+#. Name of the plugin
+#: includes/views/html-notice-missing-plugins.php:11
+msgid "OnePay for WooCommerce"
+msgstr ""
+
+#: includes/views/html-notice-missing-plugins.php:11
+msgid ""
+"depends on one plugin to work. Please install and enable the following "
+"plugin:"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-credtcard.php:34
+#, php-format
+msgid "no interest. Total: %s"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-credtcard.php:43
+#, php-format
+msgid "with interest of %s%% a.m. Total: %s"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-credtcard.php:53
+#, php-format
+msgid "%sx of %s %s"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-credtcard.php:81
+#, php-format
+msgid "and %s"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-credtcard.php:110
+msgid "Please select a number of installments."
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-credtcard.php:125
+msgid "Invalid number of installments!"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-credtcard.php:167
+msgid "Number or value of installments is invalid"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-credtcard.php:181
+msgid "Payment has not been made. Your card brand is not supported"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:27
+#, php-format
+msgid "%s - Order %s"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:31
+msgid "Purchase can only be made in Brazilian currency"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:82
+msgid "CPF Fields Are blank"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:88
+msgid "CNPJ Fields Are blank"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:93
+msgid "Error identifying a person type"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:196
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:152
+msgid "Visa"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:197
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:153
+msgid "MasterCard"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:198
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:154
+msgid "Diners"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:199
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:155
+msgid "Discover"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:200
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:156
+msgid "Elo"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:201
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:157
+msgid "American Express"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:202
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:158
+msgid "JCB"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:203
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:159
+msgid "Aura"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:206
+msgid "Visa Electron"
+msgstr ""
+
+#: includes/abstracts/traits/trait-wc-onepay-base-method-general.php:207
+msgid "Maestro"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:32
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:35
+msgid "OnePay"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:33
+msgid "Receiv by Boleto using OnePay."
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:53
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:63
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:54
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:64
+msgid "Check to enable this form of payment."
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:60
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:70
+msgid "Checkout Title"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:62
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:72
+msgid "This controls the title the user sees during checkout."
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:67
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:77
+msgid "Checkout Description"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:69
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:79
+msgid "This controls the description the user sees during checkout."
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:71
+msgid "Pay by Boleto"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:74
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:84
+msgid "Integration Settings"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:76
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:86
+msgid "Select active environment for API"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:79
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:89
+msgid "Sandbox Environment"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:81
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:91
+msgid "Enable the OnePay Testing"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:82
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:92
+msgid "OnePay Sandbox can be used to test the payments"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:87
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:97
+msgid "Toekn Secret"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:89
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:99
+msgid "OnePay Toekn Secret"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:94
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:104
+msgid "Token Secret for Sandbox"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:96
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:106
+msgid "OnePay Token Secret for Sandbox"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:101
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:111
+msgid "Payment Settings"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:103
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:113
+msgid "Customize payment options"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:106
+msgid "Boleto Expiration"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:108
+msgid "Days for Boleto expiration, after issuance."
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:113
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:226
+msgid "Gateway Testing"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:118
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:120
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:231
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:233
+msgid "Enable Log"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:122
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:235
+#, php-format
+msgid ""
+"Logs plugin events through the <code>% s </code> file. Note: This may record "
+"personal information. We recommend using this for debugging purposes only "
+"and to delete these records after finalization."
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:149
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:278
+msgid "Please enter billing birthdate"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:165
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:274
+msgid "Please enter billing address number"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:169
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:282
+msgid "Please enter billing address neighborhood"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:187
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:320
+#, php-format
+msgid "Payment process log for order ID: %s"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:188
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:321
+#, php-format
+msgid "Payment process get transaction order data: %s"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:189
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:323
+#, php-format
+msgid "Payment process get transaction customer data: %s"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:195
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:329
+#, php-format
+msgid "Log for API response: %s"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:205
+msgid "Thank you, your payment has been success fully processed."
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:214
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:356
+msgid ""
+"The payment was not made. There was a problem processing your card. Contact "
+"your bank for more details."
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:232
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:374
+#, php-format
+msgid "Unexpected API Connection Error: %s"
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:233
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:375
+msgid ""
+"There was an error processing the payment. Make sure data is entered "
+"correctly. Please try again! If the problem persists contact your website "
+"administrator."
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:250
+msgid "Please pay the boleto for your purchase to be approved."
+msgstr ""
+
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:270
+#, php-format
+msgid ""
+"<strong>NOTE: To reprint the boleto <a href=\"%s\">click here</a></strong>"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:36
+msgid "Receiv by Credit Card using OnePay."
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:81
+msgid "Pay by Credit Card"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:116
+msgid "Smallest Installment"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:118
+msgid "Smallest value of each installment, cannot be less than 5."
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:123
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:163
+msgid "Installment Within"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:125
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:165
+msgid "Maximum number of installments for orders in your store."
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:145
+msgid "Accepted Card Brands"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:147
+msgid ""
+"Select the card brands that will be accepted as payment. Press the Ctrl key "
+"to select more than one brand."
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:185
+msgid "Installment Type"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:187
+msgid "Client adds interest installments on the order total."
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:192
+msgid "Client"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:193
+msgid "Store"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:197
+msgid "Interest Rate (%)"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:199
+msgid ""
+"Percentage of interest that will be charged to the customer in the "
+"installment where there is interest rate to be charged."
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:204
+msgid "Charge Interest Since"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:206
+msgid "Indicate from which installment should be charged interest."
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:286
+msgid "Please enter card number"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:290
+msgid "Please enter card name"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:294
+msgid "Please enter card expiry"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:298
+msgid "Please enter card CVC"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:302
+msgid "Please enter card installments"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:322
+#, php-format
+msgid "Payment process get transaction card data: %s"
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:339
+msgid ""
+"Thank you, your payment has been successfully processed. Awaiting payment "
+"confirmation."
+msgstr ""
+
+#: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:348
+msgid "Thank you, your payment has been successfully processed."
+msgstr ""
+
+#. Description of the plugin
+msgid "Take payments using OnePay."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/1pay/wc-onepay/"
+msgstr ""
+
+#. Author of the plugin
+msgid "1Pay"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/1pay/"
+msgstr ""

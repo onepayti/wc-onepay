@@ -1,0 +1,12 @@
+i#onepay-icon-boleto {
+	background: transparent url("../img/boleto.jpg") no-repeat top right;
+	display: block;
+	float: left;
+	height: 51px;
+	margin: 0 10px 5px 0;
+	width: 51px;
+}
+
+#onepay-boleto-form p {
+    line-height: 1.8;
+}
