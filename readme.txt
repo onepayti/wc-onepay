@@ -2,7 +2,7 @@
 Contributors: 1pay
 Tags: Boleto, Onepay, API, Pagamentos, Checkout, Gateway, Boleto, Cartão de Crédito
 Requires at Least: 4.8
-Tested up to: 5.5.1
+Tested up to: 5.7.1
 Stable tag: 1.0.0
 Requires PHP: 7.0
 License: GPLv2
@@ -32,6 +32,7 @@ O método de instalação manual envolve o download do nosso plugin e o seu uplo
 
 == Requirements ==
 
+- Ao utilizar esse plugin, você está de acordo com nossa [Política de Privacidade](https://www.1pay.com.br/politica-de-privacidade/) e nossos [Termos de Uso](https://www.1pay.com.br/termos-de-uso/)
 - Uma conta OnePay
 - Credenciais de acesso (token) para API. [Entre em contato com a equipe OnePay para obtê-las.](https://www.1pay.com.br/)
 - Um certificao SSL (Recomendado)
@@ -48,6 +49,9 @@ Se você tiver problemas, pode pedir ajuda no fórum de plugins ou entrar em con
 
 = Tenho que fazer backup antes? =
 Não necessariamente! Como qualquer desenvolvedor ou usuário do wordpress, criamos a mania de segurança e antes de instalar qualquer plugin faça o backup do banco de dados e arquivos.
+
+= Onde posso acompanhar as vendas realizadas? =
+As vendas poderão ser acompanhadas em nosso [Dashboard](https://dash.1pay.com.br/) e também em nossa [API](https://docs.1pay.com.br/)
 
 == Screenshots ==
 
