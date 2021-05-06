@@ -1,6 +1,6 @@
 ﻿=== Onepay para WooCommerce ===
 Contributors: 1pay
-Tags: Onepay, 1pay, API, Pagamentos, Checkout, Gateway, Boleto, Boleto Bancário, Cartão de Crédito
+Tags: Onepay, 1pay, API, Pagamentos, Checkout, Gateway, Boleto, Boleto Bancário, Cartão de Crédito, WooCommerce
 Requires at Least: 4.8
 Tested up to: 5.7.1
 Stable tag: 1.0.0
@@ -58,8 +58,10 @@ Você pode contribuir com o código-fonte em nossa página no [GitHub](https://g
 
 1. Opção para habilitar o plugin.
 2. O painel de configurações usado para configurar o gateway.
-3. Opções avançadas do painel de configurações (Cartão de Crédito).
-4. Opções avançadas do painel de configurações (Boleto).
+3. O painel de configurações para Cartão de Crédito.
+4. O painel de configurações para Boleto Bancário.
+5. Opções avançadas do painel de configurações (Cartão de Crédito).
+6. Opções avançadas do painel de configurações (Boleto).
 
 == Frequently Asked Questions ==
 
