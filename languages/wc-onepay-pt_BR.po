@@ -3,20 +3,20 @@ msgstr ""
 "Project-Id-Version: OnePay for WooCommerce\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-30 15:15+0000\n"
-"PO-Revision-Date: 2020-01-30 15:16+0000\n"
-"Last-Translator: WILLIAN SANTANA <sandbox@wp-sandbox.com.br>\n"
+"PO-Revision-Date: 2021-09-13 10:34-0300\n"
+"Last-Translator: RAFAEL SINOSAKI <rafael.sinosaki@1pay.com.br>\n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.3.1; wp-4.9.12"
+"X-Generator: Poedit 3.0\n"
+"X-Loco-Version: 2.3.1; wp-4.9.12\n"
 
 #: includes/class-wc-onepay-environment.php:158
-#: includes/class-wc-onepay-environment.php:171
-#: includes/class-wc-onepay.php:69 includes/class-wc-onepay.php:80
+#: includes/class-wc-onepay-environment.php:171 includes/class-wc-onepay.php:69
+#: includes/class-wc-onepay.php:80
 msgid "Cheatin&#8217; huh?"
 msgstr ""
 
@@ -63,12 +63,12 @@ msgstr "Parcelamento"
 #: includes/abstracts/abstract-class-wc-onepay.php:84
 #, php-format
 msgid "Order refund process: %s"
-msgstr ""
+msgstr "Processo do reembolso do pedido: %s"
 
 #: includes/abstracts/abstract-class-wc-onepay.php:85
 #, php-format
 msgid "Order refund process $amount: %s"
-msgstr ""
+msgstr "Processo do reembolso do pedido $amount: %s"
 
 #: includes/abstracts/abstract-class-wc-onepay.php:97
 #, php-format
@@ -82,7 +82,7 @@ msgstr ""
 #: includes/abstracts/abstract-class-wc-onepay.php:120
 #, php-format
 msgid "OnePay Gateway received a URL notification: %s"
-msgstr ""
+msgstr "O Gateway Onepay recebeu a notificação URL: %s"
 
 #: includes/abstracts/abstract-class-wc-onepay.php:172
 msgid "Your payment was not processed."
@@ -119,8 +119,8 @@ msgstr ""
 
 #: includes/views/html-notice-credential-missing.php:17
 msgid ""
-"To receive payments by Credit Card you must enter your token secret (sandbox)"
-" in the settings."
+"To receive payments by Credit Card you must enter your token secret "
+"(sandbox) in the settings."
 msgstr ""
 "Para receber pagamentos com cartão de crédito, insira seu token secreto "
 "(sandbox) nas configurações."
@@ -422,7 +422,7 @@ msgstr "Digite o bairro do endereço de cobrança"
 #: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:320
 #, php-format
 msgid "Payment process log for order ID: %s"
-msgstr ""
+msgstr "Log de processamento do ID do pedido: %s"
 
 #: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:188
 #: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:321
@@ -440,7 +440,7 @@ msgstr ""
 #: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:329
 #, php-format
 msgid "Log for API response: %s"
-msgstr ""
+msgstr "Log para a resposta da API: %s"
 
 #: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:205
 msgid "Thank you, your payment has been success fully processed."
@@ -459,7 +459,7 @@ msgstr ""
 #: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:374
 #, php-format
 msgid "Unexpected API Connection Error: %s"
-msgstr ""
+msgstr "Erro inesperado com a conexão da API: %s"
 
 #: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:233
 #: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:375
@@ -476,13 +476,15 @@ msgstr ""
 msgid "Please pay the boleto for your purchase to be approved."
 msgstr "Pague o boleto para que sua compra seja aprovada."
 
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:252
+msgid "Click here to visualize the generated boleto for payment."
+msgstr "Clique aqui para visualizar o boleto gerado para o pagamento."
+
 #: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:270
 #, php-format
-msgid ""
-"<strong>NOTE: To reprint the boleto <a href=\"%s\">click here</a></strong>"
+msgid "<strong>NOTE: An e-mail with the boleto is on the way!</strong>"
 msgstr ""
-"<strong> NOTA: Para reimprimir o boleto <a href=\"%s\"> clique aqui </a> "
-"</strong>"
+"<strong> Um e-mail com o boleto está a caminho e chegará em breve.</strong>"
 
 #: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:36
 msgid "Receiv by Credit Card using OnePay."

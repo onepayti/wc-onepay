@@ -11,7 +11,7 @@ if ( ! class_exists( 'Wc_OnePay_Gateway_Method_Boleto' ) ) {
  *
  * @link       https://github.com/1pay/wc-onepay
  * @author     1Pay <suporte.ti@gmail.com>
- * @since      1.0.0
+ * @since      1.0.1
  * @package    wc-onepay
  * @subpackage wc-onepay/includes/gateway/methods/
  * 
@@ -249,9 +249,9 @@ if ( ! class_exists( 'Wc_OnePay_Gateway_Method_Boleto' ) ) {
 		public function order_summary_preview( $order_id ) 
 		{
 			$order = wc_get_order( $order_id );
-			$html  = '<p>' . __( 'Please pay the boleto for your purchase to be approved.', 'wc-onepay' ) .'</p>';
-			$html .= '<p><iframe src="' . $order->get_meta( 'ONEPAY_URL_BOLETO' ) . '" style="width:100%; height:1000px;border: solid 1px #eee;"></iframe></p>';
- 
+			$html  = '<p>' . __( 'Please pay the boleto for your purchase to be approved.', 'wc-onepay' );
+			$html .= '<br><a href="'. $order->get_meta( 'ONEPAY_URL_BOLETO' ) .'" target="_blank"> '. __( 'Click here to visualize the generated boleto for payment.', 'wc-onepay') .'</a></br></p>';
+			$html .= '<p><iframe src="' . $order->get_meta( 'ONEPAY_URL_BOLETO' ) . '" style="width:100%; height:1000px;border: solid 1px #eee;"></iframe></p>'; 
 			echo '<p>' . $html . '</p>';		
 		}
 		
@@ -269,7 +269,7 @@ if ( ! class_exists( 'Wc_OnePay_Gateway_Method_Boleto' ) ) {
 		public function email_instructions( $order, $sent_to_admin, $plain_text = false ) 
 		{
 			if ( ! $sent_to_admin && 'wc_onepay_boleto' === $order->get_payment_method() && $order->has_status( 'on-hold' ) ) {
-				echo wp_kses_post( wpautop( wptexturize( sprintf ( __( '<strong>NOTE: To reprint the boleto <a href="%s">click here</a></strong>', 'wc-onepay'), $order->get_meta( 'ONEPAY_URL_BOLETO' ) ) ) ) . PHP_EOL );
+				echo wp_kses_post( wpautop( wptexturize( sprintf ( __( '<strong>NOTE: An e-mail with the boleto is on the way!</strong>', 'wc-onepay'), $order->get_meta( 'ONEPAY_URL_BOLETO' ) ) ) ) . PHP_EOL );
 			}
 		}
 	 

@@ -454,10 +454,14 @@ msgstr ""
 msgid "Please pay the boleto for your purchase to be approved."
 msgstr ""
 
+#: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:253
+msgid "Click here to visualize the generated boleto for payment."
+msgstr ""
+
 #: includes/gateway/methods/boleto/class-wc-onepay-gateway-method-boleto.php:270
 #, php-format
 msgid ""
-"<strong>NOTE: To reprint the boleto <a href=\"%s\">click here</a></strong>"
+"<strong>NOTE: An e-mail with the boleto is on the way!</strong>"
 msgstr ""
 
 #: includes/gateway/methods/creditcard/class-wc-onepay-gateway-method-creditcard.php:36

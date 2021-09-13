@@ -4,7 +4,7 @@
  * Plugin Name:       OnePay for WooCommerce
  * Plugin URI:        https://github.com/onepayti/wc-onepay
  * Description:       Take payments using OnePay.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            1Pay
  * Author URI:        https://github.com/onepayti/
  * License:           GPL-2.0+
@@ -14,7 +14,7 @@
  */
 
 define( 'WC_ONEPAY_NAME', 'WooCommerce OnePay' );
-define( 'WC_ONEPAY_VERSION', '1.0.0' );
+define( 'WC_ONEPAY_VERSION', '1.0.1' );
 define( 'WC_ONEPAY_DEBUG_OUTPUT', 0 );
 define( 'WC_ONEPAY_BASENAME', plugin_basename( __FILE__ ) );
 define( 'WC_ONEPAY_SLUG', plugin_basename( plugin_dir_path( __FILE__ ) ) );

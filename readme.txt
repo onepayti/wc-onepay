@@ -36,7 +36,7 @@ O método de instalação manual envolve o download do nosso plugin e o seu uplo
 == Requerimentos ==
 
 - Ao utilizar o plugin OnePay para WooCommerce, você está de acordo com nossa [Política de Privacidade](https://www.1pay.com.br/politica-de-privacidade/) e nossos [Termos de Uso](https://www.1pay.com.br/termos-de-uso/)
-- Uma conta OnePay
+- Uma conta OnePay. [Clique aqui](https://dash.1pay.com.br/pre-cadastro-ec) para solicitar.
 - Credenciais de acesso (token) para API. [Entre em contato com a equipe OnePay para obtê-las.](https://www.1pay.com.br/)
 - Um certificao SSL (Recomendado)
 - Plugin "WooCommerce" ativado e instalado
